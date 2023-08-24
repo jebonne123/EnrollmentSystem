@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TestFinal</id>
+    <version>1.0.0</version>
+    <authors>TestFinal</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="MySql.Data" version="8.0.33" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\JASONLEE J. GABE\Documents\Visual Studio 2022 projects\TestFinal\bin\Debug\net6.0-windows\TestFinal.runtimeconfig.json" target="lib\net6.0-windows7.0\TestFinal.runtimeconfig.json" />
+    <file src="C:\Users\JASONLEE J. GABE\Documents\Visual Studio 2022 projects\TestFinal\bin\Debug\net6.0-windows\TestFinal.dll" target="lib\net6.0-windows7.0\TestFinal.dll" />
+  </files>
+</package>
